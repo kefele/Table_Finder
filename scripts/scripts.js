@@ -9,8 +9,7 @@ $(document).ready(() => {
     };
 
     function registerEventHandlers() {
-        // register events handlers for mouse enter and leave each letter. Add
-        // a "hover" class when the mouse is over the letter.
+       
         $("body").on("mouseenter mouseleave", ".table", (e) => {
             $(e.target).toggleClass("hover");
         });

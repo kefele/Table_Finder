@@ -32,3 +32,13 @@ form{
     background-color: grey;
 
 }
+
+.available.hover {
+    background-color: silver;
+}
+
+.reserved{
+    background-color: black;
+    cursor:not-allowed;
+    
+}
